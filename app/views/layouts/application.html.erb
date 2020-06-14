@@ -13,7 +13,10 @@
     
    <%= render 'layouts/navbar' %>
     
-    <%= render 'layouts/messages' %>
-    <%= yield %>
-  </body>   
+   <div id="page-content">
+      <%= render 'layouts/messages' %>
+      <%= yield %>
+    </div>
+    <%= render 'layouts/footer' %>
+  </body>
 </html>
